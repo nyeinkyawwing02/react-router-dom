@@ -1,0 +1,24 @@
+.contact-wrapper {
+  @apply flex justify-between items-center m-[10%];
+}
+
+.contact-card {
+  @apply max-w-lg w-full;
+}
+
+.contact-card h1 {
+  -webkit-background-clip: text;
+  @apply text-3xl font-bold bg-gradient-to-t from-[#f3ec78] to-[#af4261] text-transparent;
+}
+
+.contact-card .desc {
+  @apply text-gray-900 text-opacity-60 mt-[2%];
+}
+
+.contact-info {
+  @apply m-[10%];
+}
+
+.contact-detail-wrapper {
+  @apply flex justify-between items-center gap-y-0 gap-x-3 text-sm text-gray-900 text-opacity-60 mt-3;
+}

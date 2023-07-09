@@ -1,0 +1,30 @@
+.card {
+  @apply w-80 border border-gray-600 border-opacity-30 border-solid bg-white rounded-xl hover:shadow-md hover:shadow-gray-400 transition duration-200 hover:scale-105;
+}
+.card img {
+  @apply rounded-tl-lg rounded-br-lg;
+}
+.card div {
+  @apply p-3;
+}
+.card div .card-tag-wrapper {
+  @apply flex space-x-3;
+}
+.card div .card-tag-wrapper span {
+  @apply p-1 text-xs text-white bg-[#4e7082] bg-opacity-70 rounded-md hover:bg-opacity-100;
+}
+.card div .card-title {
+  @apply text-base m-3 text-black text-opacity-80;
+}
+.card div .card-desc {
+  @apply text-sm text-black text-opacity-70;
+}
+.see-more-wrapper {
+  @apply flex justify-start items-center;
+}
+.see-more {
+  @apply text-xs text-[#4e6e81] font-bold;
+}
+.see-more-wrapper svg {
+  @apply text-current;
+}

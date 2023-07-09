@@ -1,0 +1,24 @@
+.blog-detail-main {
+  @apply grid grid-cols-2 gap-x-8 gap-y-0;
+}
+.blog-detail-wrapper {
+  @apply w-4/5 flex justify-start flex-col mx-auto;
+}
+.blog-detail-title {
+  @apply text-5xl m-5;
+}
+.tags {
+  @apply flex justify-start gap-y-0 gap-x-3 m-3;
+}
+.tags span {
+  @apply text-xs p-1 text-white rounded-md bg-[#4e6e81] bg-opacity-80;
+}
+.blog-detail-right {
+  @apply p-3;
+}
+.recent-title {
+  @apply text-center px-0 py-3 border border-solid border-opacity-10 rounded-tl-md rounded-br-md text-black text-opacity-80 mb-[5%];
+}
+.explore {
+  @apply text-center py-3 bg-[#4e6e81] bg-opacity-80 border border-solid border-opacity-20 text-white text-opacity-70 cursor-pointer;
+}

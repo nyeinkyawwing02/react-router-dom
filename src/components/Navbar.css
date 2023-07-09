@@ -1,0 +1,19 @@
+.logo {
+  --webkit-background-clip: text;
+  @apply text-base bg-gradient-to-t from-[#f3ec78] to-[#af4261] text-transparent;
+}
+nav {
+  @apply w-full bg-[#4e6e81];
+}
+nav div {
+  @apply max-w-screen-xl flex justify-between items-center ms-auto me-auto;
+}
+nav div p {
+  @apply text-white p-3;
+}
+nav div ul {
+  @apply flex list-none space-x-8 text-sm;
+}
+.active {
+  @apply text-[#fed187] font-extrabold;
+}

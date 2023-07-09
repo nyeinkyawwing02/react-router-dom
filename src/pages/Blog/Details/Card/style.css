@@ -1,0 +1,17 @@
+.blog-card {
+  @apply border border-solid border-black border-opacity-10 mb-5;
+}
+.blog-card .blog-info {
+  @apply p-5;
+}
+.blog-info h4 {
+  /* color: rgba(0, 0, 0, 0.5);
+  margin-block: 5px; */
+  @apply m-2 text-black text-opacity-50;
+}
+.blog-info p {
+  @apply text-xs text-black text-opacity-50;
+}
+.select {
+  @apply shadow-lg transition-all duration-500 scale-105;
+}

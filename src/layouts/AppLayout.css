@@ -1,0 +1,3 @@
+.outlet-w {
+  @apply max-w-screen-xl w-full ms-auto me-auto m-8;
+}
